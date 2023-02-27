@@ -192,6 +192,18 @@ html {
 }
 
 /* || Banner Responsive */
+@media screen and (max-width: 1200px) {
+  .banner__text__heading,
+  .banner__text__para {
+    width: auto;
+  }
+  .banner__text__heading {
+    font-size: 2.5rem;
+  }
+  .banner__img {
+    width: 25rem;
+  }
+}
 @media screen and (max-width: 1000px) {
   .banner {
     width: 90%;
@@ -200,10 +212,6 @@ html {
   }
   .banner__text {
     text-align: center;
-  }
-  .banner__text__heading,
-  .banner__text__para {
-    width: auto;
   }
   .banner__text__heading {
     font-size: 2rem;
